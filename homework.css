@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background: dodgerblue;
+    align-items: center;
+    
+}
+.nav__item1{
+    padding: 30px 10px;
+    flex: 1 ;
+}
+.nav__colletion{
+    display: flex;
+    color: #ddd;
+}
+.nav__item{
+    position: relative;
+    cursor: pointer;
+    padding: 30px 10px;
+}
+.nav__item ol{
+    position: absolute;
+    color: #222;
+    top: 100%;
+    left: 0;
+    width: 110px;
+    border-radius: 6px;
+    list-style: none;
+    background: #f1f1f1;
+    overflow: hidden;
+    transition: .3s;
+    
+    /* display: none; */
+    transform:  scaleY(0);
+    transform-origin: top;
+}
+.nav__item:hover ol{
+    /* display: block; */
+    transform:   scaleY(1);
+}
+.nav__item ol li{
+    padding: 5px 12px;
+}
+.nav__item ol li:hover{
+    background: #ddd;
+
+}
+.cards{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    gap: 40px;
+    padding: 20px 150px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 250px;
+    height: 250px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+.S23 {
+    background: url(./Screenshot\ \(51\).png)
+    no-repeat center/cover;
+    position: relative;
+}
+.S23 span a{
+    color: dodgerblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 40px 20px 5px 20px ;
+    top: 10;
+}
+.S23 div{
+    margin-top: 150px;
+}
+.S23 h4 {
+    color: wheat;
+}
+.S23 h6{
+    color: wheat;
+}
+.watch{
+    background: url(./Screenshot\ \(53\).png)
+    no-repeat center/cover;
+}
+.watch span a{
+    color: dodgerblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 40px 20px 5px 20px ;
+    top: 10;
+}
+.watch div{
+    margin-top: 150px;
+}
+.watch h4 {
+    color: wheat;
+}
+.watch h6{
+    color: wheat;
+}
+.NEO{
+    background: url(./Screenshot\ \(59\).png)
+    no-repeat center/cover;
+}
+.NEO span a{
+    color: dodgerblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 40px 20px 5px 20px ;
+    top: 10;
+}
+.NEO div{
+    margin-top: 150px;
+}
+.NEO h4 {
+    color: wheat;
+}
+.NEO h6{
+    color:wheat;
+}
+.buds {
+    background: url(./Screenshot\ \(54\).png)
+    no-repeat center;
+}
+.buds span a{
+    color: dodgerblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 40px 20px 5px 20px ;
+    top: 10;
+}
+.buds div{
+    margin-top: 170px;
+}
+.buds h4 {
+    text-align: center;
+    color: wheat;
+}
+.buds h6{
+    text-align: center;
+    color:wheat;
+}
+.frame {
+    background: url(./Screenshot\ \(55\).png)
+    no-repeat center/cover;
+}
+.frame span a{
+    color: dodgerblue;
+    text-align: center;
+    text-decoration: none;
+    padding: 40px 20px 5px 20px ;
+    top: 10;
+}
+.frame div{
+    margin-top: 170px;
+}
+.frame h4 {
+    text-align: center;
+    color: wheat;
+}
+.frame h6{
+    text-align: center;
+    color:wheat;
+}
+
+
+
+
+
+
+
+
+
